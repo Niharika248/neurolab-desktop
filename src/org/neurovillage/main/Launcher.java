@@ -216,7 +216,7 @@ public class Launcher extends JFrame
 //							currentFeedbackSettings.addFeedback(new ZenSpaceVisuals(rn.getCurrentFeedbackSettings()));
 										
 							if (ngvis!=null)
-								ngvis.getGameFrame().setVisible(false);
+								ngvis.getGameFrame().setVisible(true);
 							nfbGraph.init();
 							btLaunchVisualization.setEnabled(true);
 						}
