@@ -216,9 +216,9 @@ public class Launcher extends JFrame
 //							currentFeedbackSettings.addFeedback(new ZenSpaceVisuals(rn.getCurrentFeedbackSettings()));
 										
 							if (ngvis!=null)
-								ngvis.getGameFrame().setVisible(true);
+								ngvis.getGameFrame().setVisible(false);
 							nfbGraph.init();
-							btLaunchVisualization.setEnabled(false);
+							btLaunchVisualization.setEnabled(true);
 						}
 						catch (Exception e)
 						{
@@ -288,7 +288,7 @@ public class Launcher extends JFrame
 						nfbGraph.init();
 						
 						btLaunchVisualization.setEnabled(false);
-						Launcher.this.setVisible(false);
+						Launcher.this.setVisible(true);
 					}
 				};
 				Launcher.this.setVisible(false);
